@@ -3955,7 +3955,7 @@
 "dhR" = (
 /obj/effect/decal/fakelattice,
 /obj/item/paper/crumpled/bloody/docsdeathnote{
-	info = "ROUND AND ROUND THE TABLE GOES - THE CENTER OF TREASURE BETRAYS YOUR NOSE - DARE YOU ENTER THE CASINO OF WOES - WILL YOU LIVE? NOBODY KNOWS;
+	info = "ROUND AND ROUND THE TABLE GOES - THE CENTER OF TREASURE BETRAYS YOUR NOSE - DARE YOU ENTER THE CASINO OF WOES - WILL YOU LIVE? NOBODY KNOWS";
 	name = "ominous note";
 	pixel_x = -9;
 	pixel_y = -5
@@ -15811,16 +15811,16 @@
 	environment_smash = 2;
 	extra_projectiles = 10;
 	faction = list("wastebot");
-	health = 1500;
+	health = 2000;
 	icon = 'icons/fallout/mobs/bigmob.dmi';
 	icon_dead = "arlem";
 	icon_gib = "arlem";
 	icon_living = "arlem";
 	icon_state = "arlem";
 	loot = list(/obj/item/keycard/library);
-	maxHealth = 1500;
-	melee_damage_lower = 100;
-	melee_damage_upper = 100;
+	maxHealth = 2000;
+	melee_damage_lower = 90;
+	melee_damage_upper = 90;
 	melee_queue_distance = 10;
 	minimum_distance = 1;
 	name = "Captain Arlem";
